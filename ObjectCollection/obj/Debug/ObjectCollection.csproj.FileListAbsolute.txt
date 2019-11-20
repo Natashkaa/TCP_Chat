@@ -1,0 +1,12 @@
+C:\Users\Natashka\source\repos\TCPchat_dz\ObjectCollection\bin\Debug\ObjectCollection.dll
+C:\Users\Natashka\source\repos\TCPchat_dz\ObjectCollection\bin\Debug\ObjectCollection.pdb
+C:\Users\Natashka\source\repos\TCPchat_dz\ObjectCollection\obj\Debug\ObjectCollection.csproj.CoreCompileInputs.cache
+C:\Users\Natashka\source\repos\TCPchat_dz\ObjectCollection\obj\Debug\ObjectCollection.dll
+C:\Users\Natashka\source\repos\TCPchat_dz\ObjectCollection\obj\Debug\ObjectCollection.pdb
+C:\Users\Natashka\source\repos\TCPchat_dz\ObjectCollection\obj\Debug\ObjectCollection.csprojAssemblyReference.cache
+C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\ObjectCollection\bin\Debug\ObjectCollection.dll
+C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\ObjectCollection\bin\Debug\ObjectCollection.pdb
+C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\ObjectCollection\obj\Debug\ObjectCollection.csprojAssemblyReference.cache
+C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\ObjectCollection\obj\Debug\ObjectCollection.csproj.CoreCompileInputs.cache
+C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\ObjectCollection\obj\Debug\ObjectCollection.dll
+C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\ObjectCollection\obj\Debug\ObjectCollection.pdb
