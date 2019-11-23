@@ -45,8 +45,6 @@ namespace Server
         {
             while (client.Client.Connected)
             {
-                //try
-                //{
                     string tmp = client.ReadLine();
                     if (tmp.Contains("Type\":\"user"))//проверка на пользователя
                     {
@@ -108,13 +106,6 @@ namespace Server
                             cl.WriteLine(jsonMessage);
                         }
                     }
-                //}
-                //catch (Exception ex)
-                //{
-                //    Console.WriteLine($"ERROR: {ex.Message}");
-                //    client.Close();
-                //    throw ex;
-                //}
             }
         }
     }

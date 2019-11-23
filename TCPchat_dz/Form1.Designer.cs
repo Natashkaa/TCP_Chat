@@ -194,6 +194,7 @@
             this.sendHistoryButton.TabIndex = 18;
             this.sendHistoryButton.Text = "send message history";
             this.sendHistoryButton.UseVisualStyleBackColor = false;
+            this.sendHistoryButton.Click += new System.EventHandler(this.sendHistoryButton_Click);
             // 
             // dataGridView1
             // 

@@ -28,3 +28,18 @@ C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\TCPchat_dz\obj\Debug\TCPchat
 C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\TCPchat_dz\obj\Debug\TCPchat_dz.csproj.CopyComplete
 C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\TCPchat_dz\obj\Debug\TCPchat_dz.exe
 C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\TCPchat_dz\obj\Debug\TCPchat_dz.pdb
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\bin\Debug\TCPchat_dz.exe.config
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\bin\Debug\TCPchat_dz.exe
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\bin\Debug\TCPchat_dz.pdb
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\bin\Debug\ObjectCollection.dll
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\bin\Debug\ObjectCollection.pdb
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\obj\Debug\TCPchat_dz.csprojAssemblyReference.cache
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\obj\Debug\TCPchat_dz.Form1.resources
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\obj\Debug\TCPchat_dz.Properties.Resources.resources
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\obj\Debug\TCPchat_dz.csproj.GenerateResource.cache
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\obj\Debug\TCPchat_dz.csproj.CoreCompileInputs.cache
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\obj\Debug\TCPchat_dz.csproj.CopyComplete
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\obj\Debug\TCPchat_dz.exe
+C:\Users\Natashka\Desktop\TCP_Chat\TCPchat_dz\obj\Debug\TCPchat_dz.pdb

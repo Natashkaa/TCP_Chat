@@ -22,3 +22,15 @@ C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\Server\obj\Debug\Server.cspr
 C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\Server\obj\Debug\Server.csproj.CopyComplete
 C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\Server\obj\Debug\Server.exe
 C:\Users\student.LAN\Desktop\НИ ХАЧЮ\TCP_Chat\Server\obj\Debug\Server.pdb
+C:\Users\Natashka\Desktop\TCP_Chat\Server\bin\Debug\Server.exe.config
+C:\Users\Natashka\Desktop\TCP_Chat\Server\bin\Debug\Server.exe
+C:\Users\Natashka\Desktop\TCP_Chat\Server\bin\Debug\Server.pdb
+C:\Users\Natashka\Desktop\TCP_Chat\Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Natashka\Desktop\TCP_Chat\Server\bin\Debug\ObjectCollection.dll
+C:\Users\Natashka\Desktop\TCP_Chat\Server\bin\Debug\ObjectCollection.pdb
+C:\Users\Natashka\Desktop\TCP_Chat\Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Natashka\Desktop\TCP_Chat\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\Natashka\Desktop\TCP_Chat\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Natashka\Desktop\TCP_Chat\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\Natashka\Desktop\TCP_Chat\Server\obj\Debug\Server.exe
+C:\Users\Natashka\Desktop\TCP_Chat\Server\obj\Debug\Server.pdb

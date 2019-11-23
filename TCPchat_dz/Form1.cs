@@ -13,6 +13,7 @@ using System.IO;
 using ObjectCollection;
 using Newtonsoft.Json;
 using System.Threading;
+using System.Net.Mail;
 
 namespace TCPchat_dz
 {
@@ -36,9 +37,9 @@ namespace TCPchat_dz
         public Form1()
         {
             InitializeComponent();
-            myMailLog.Text = myLoginMail;
-            myMailPass.Text = myMailPassword;
-            usersMailBox.Text = anothersMail;
+            myLoginMail = myMailLog.Text;
+            myMailPassword = myMailPass.Text;
+            anothersMail=usersMailBox.Text;
             ep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 12345);
         }
 
@@ -65,6 +66,7 @@ namespace TCPchat_dz
             ofdButton.Enabled = true;
             sendMessageButton.Enabled = true;
             logoutButton.Enabled = true;
+            sendHistoryButton.Enabled = true;
             
             me = new User() { Name = myName, MailLog = myLoginMail, MailPas = myMailPassword };
             client = new TcpClient();
@@ -86,17 +88,12 @@ namespace TCPchat_dz
             string json = JsonConvert.SerializeObject(me, Formatting.None);
             writer.WriteLine(json);
             writer.Flush();
-            //string jsonUsers = reader.ReadLine();
-            //if (jsonUsers == null)
-            //    dataGridView1.DataSource = null;
-            //else
-            //    onlineUsers = JsonConvert.DeserializeObject<List<User>>(jsonUsers);
+
             dataGridView1.Invoke(new Action(() => { dataGridView1.DataSource = null; }));
             updateThread.Abort();
             client.GetStream().Close();
             client.Close();
             
-
             myNameBox.Enabled = true;
             newMessageBox.Enabled = false;
             loginButton.Enabled = true;
@@ -114,6 +111,30 @@ namespace TCPchat_dz
             writer.WriteLine(json);
             writer.Flush();
             newMessageBox.Text = "";
+        }
+
+        private void sendHistoryButton_Click(object sender, EventArgs e)
+        {
+            anothersMail = usersMailBox.Text;
+            if (anothersMail == "")
+            {
+                MessageBox.Show("What about recipient?", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            MailMessage mailMessage = new MailMessage();
+            mailMessage.From = new MailAddress(myLoginMail);
+            mailMessage.To.Add(anothersMail);
+            mailMessage.Subject = "message history";
+            mailMessage.Body = messageList.Text;
+
+            SmtpClient smtpServer = new SmtpClient("smtp.gmail.com", 587);
+            smtpServer.Credentials = new NetworkCredential(myLoginMail, myMailPassword);
+            smtpServer.EnableSsl = true;
+            smtpServer.DeliveryMethod = SmtpDeliveryMethod.Network;
+            Task.Run(() =>
+            {
+                smtpServer.Send(mailMessage);
+            });
         }
 
         void UpdateUsersAndMessage()
@@ -134,7 +155,6 @@ namespace TCPchat_dz
                         messageList.Text += resMessage.Content;
                     }
                 }
-                //Thread.Sleep(3000);
             }
         }
     }
